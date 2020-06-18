@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class DollarGameBrasil {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         double umCentavo = .01;
         double cincoCentavos = .05;
