@@ -35,6 +35,7 @@ public class DollarGame {
         System.out.println("How many quarters would you like?");
         int quarters = scanner.nextInt();
 
+        scanner.close();
         // What your program is going to do is count up the value of all of the change that they answered.
         double change = 0;
         if (pennies != 0)
