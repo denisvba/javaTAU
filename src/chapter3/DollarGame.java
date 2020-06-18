@@ -54,12 +54,12 @@ public class DollarGame {
         // If it's more than one dollar, then you need to tell them that it's more than one dollar and how much they went over.
         else if (change > 1.0) {
             change = change - 1;
-            System.out.println("You lose! You got more than $1. You went $" + change + " over.");
+            System.out.println("You lose! You got more than $1. You went $" + String.format("%.2f",change) + " over.");
         }
         // If it's less than one dollar, tell them how much they went under.
         else {
             change = 1.0 - change;
-            System.out.println("You lose! You got less than $1. You went $" + change + " under.");
+            System.out.println("You lose! You got less than $1. You went $" + String.format("%.2f",change) + " under.");
         }
     }
 }
