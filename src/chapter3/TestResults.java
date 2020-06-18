@@ -9,6 +9,7 @@ public class TestResults {
         System.out.println("Enter your test score:");
         Scanner scanner = new Scanner(System.in);
         double score = scanner.nextDouble();
+        scanner.close();
 
         //Determine the letter grade
         char grade;
